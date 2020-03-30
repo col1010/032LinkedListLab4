@@ -40,7 +40,7 @@ public class HistoList
 		HistoNode temp = front;
 		
 		while (front != null) {
-			output += front.getLetter() + " - " + front.getLetterCount() + "  |  ";
+			output += front.getLetter() + " - " + front.getLetterCount() + "   |   ";
 			front = front.getNext();
 		}
 		return output;
